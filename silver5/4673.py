@@ -7,3 +7,6 @@ for i in range(10001):
         tmp += int(j)
     generated_num.add(tmp+i)
 
+result = normal_num - generated_num
+for i in sorted(result):
+    print(i)
